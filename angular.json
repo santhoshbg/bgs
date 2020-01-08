@@ -122,8 +122,13 @@
               "devServerTarget": "angular6authentication:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "angular6authentication"
 }

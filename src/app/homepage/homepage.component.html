@@ -1,5 +1,5 @@
 
-<div class="news-card col-md-3 col-sm-3" *ngFor="let book of books | productSearch: query">
+<div class="news-card col-md-3 col-sm-3" *ngFor="let book of books | productSearch: books">
 <figure><img [src]="book.img_url" alt=""></figure>
 <div class="news-ctnt">
     <p class="font-16b"> <strong>{{ book.name }}</strong></p>
